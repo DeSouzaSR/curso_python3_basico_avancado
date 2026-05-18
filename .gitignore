@@ -1,49 +1,43 @@
-# History files
-.Rhistory
-.Rapp.history
-
-# Session Data files
-.RData
-.RDataTmp
-
-# User-specific files
-.Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+# Arquivos compilados em bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+# Extensões C
+*.so
+# Arquivos de distribuição
+Python
+build/
+dist/
+*.egg-info/
+eggs/
+# Logs e relatórios de cobertura
+*.log
+coverage
+coverage.*
+cache
+nosetests.xml
+coverage.xml
+# Ambientes virtuais
+env/
+venv/
+ENV/
+env/
+venv/
+# Configurações locais e bancos de dados SQLite
+local_settings.py
+db.sqlite3
+# Checkpoints do Jupyter Notebook
+ipynb_checkpoints/
+# Diretórios de ferramentas específicas
+pytest_cache/
+mypy_cache/
+dmypy.json
+pyre/
+pytype/
+# Configurações do PyCharm e VSCode (opcional)
+idea/
+vscode/
+# Outros arquivos temporários ou específicos de ferramentas
+*.spec
+*.pot
+*.mo
