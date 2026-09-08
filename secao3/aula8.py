@@ -6,6 +6,8 @@ altura_metros = 1.70
 
 idade = ano_atual - ano_nascimento
 
+breakpoint()
+
 if idade >= 18:
     maior_de_idade = 'Sim'
 else:
